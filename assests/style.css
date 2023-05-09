@@ -16,10 +16,16 @@ body {
     background-color: #2a607c;
     color: aliceblue;
 }
+.seo{
+    color: rgb(7, 107, 104);
+}
 
 .header h1 {
     display: inline-block;
-    font-size: 20px
+    font-size: 30px;
+    background-color: #00bcd4;
+    color: white;
+
 }
 
 nav {
@@ -45,19 +51,24 @@ nav {
 
 .text {
     position: absolute;
-    background-color: black;
+    background-color: rgb(19, 27, 136);
     color: white;
     padding: 0 2rem;
     bottom: 32px;
     right: 32px;
 }
+.box{
+   position: relative;
+   display: block;
+    padding: 5px;
+    width: 500px;
+    max-width: 500px;
 
-
-
+}
 .image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover
 }
 
 section {
@@ -66,13 +77,79 @@ section {
     width: 100%;
     margin-top: 2rem;
 }
-
+.larger>img{
+    width: 700px;
+    max-width: 700px;
+    margin-left: 150px;
+}
+.larger{
+    position: relative;
+}
+#double{
+    position: absolute;
+    background-image: url("assests/3d-render-abstract-minimal-neon-260nw-2050037234.webp") ;
+    bottom: 20%;
+    right: 65%;
+    color: aliceblue;
+    background-color: rgb(39, 69, 129);
+    padding: 20px;
+}
+.second{
+    position: relative;
+}
+#image-3{
+    position: absolute;
+    background-image: url("./assests/images (3).jfif") ;
+    bottom: 20%;
+    right: 68%;
+    color: white;
+    background-color: rgb(71, 70, 148);
+    padding: 20px;
+}
+.forth{
+    position: relative;
+}
+#image-4{
+    position: absolute;
+    background-image: url("./assests/ocean.jpg") ;
+    bottom: 20%;
+    right: 72%;
+    color: aliceblue;
+    background-color: rgb(43, 43, 88);
+    padding: 20px;
+}
+.third{
+    position: relative;
+}
+#image-2{
+    position: absolute;
+    background-image: url("./assests/images (1).jfif") ;
+    bottom: 25%;
+    right: 72%;
+    color:white;
+    background-color:rgb(71, 70, 148);
+    padding: 20px;
+}
+.fifth{
+    position: relative;
+}
+#image-5{
+    position: absolute;
+    background-image: url("./assests/photo.jfif") ;
+    bottom: 20%;
+    right: 72%;
+    color: aliceblue;
+    background-color:rgb(43, 43, 88);
+    padding: 20px;
+}
 .section-heading {
     text-decoration: underline;
     min-width: 200px;
     border-right: 1px solid black;
     padding: 1rem;
+    font-size: 25px;
 }
+
 
 .section-body {
     flex: 1;
@@ -85,6 +162,10 @@ section {
     flex-wrap: wrap;
     gap: 1rem;
 
+}
+.third>.box{
+    width: 540px;
+    max-width: 540px;
 }
 
 .image-grid img {
@@ -99,8 +180,11 @@ section {
 
 .details a {
     color: black;
-    font-size: 40px;
+    font-size: 30px;
     margin: 2%;
+    
+}
+@media screen and (max-width:2500px) {
     
 }
 
