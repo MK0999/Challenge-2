@@ -156,10 +156,7 @@ section {
     flex: 1;
     padding-left: 2rem;
 }
-.third>.box{
-    width: 540px;
-    max-width: 540px;
-}
+
 
 .image-grid {
 
