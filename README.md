@@ -10,7 +10,7 @@ Bootcamp study activities: CARL-VIRT-FSF-PT-04-2923-U-LOLC
 Tutor: David
 
 ## Screenshots
-![mainpage]()
+![mainpage](https://github.com/MK0999/Portfolio/blob/main/Screenshot%20(71).png?raw=true)
 ![secondpage]()
 
 ## Links
