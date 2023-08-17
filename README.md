@@ -11,7 +11,7 @@ Tutor: David
 
 ## Screenshots
 ![mainpage](https://github.com/MK0999/Portfolio/blob/main/Screenshot%20(71).png?raw=true)
-![secondpage]()
+![secondpage](https://github.com/MK0999/Portfolio/blob/main/Screenshot%20(72).png?raw=true)
 
 ## Links
 Deployed Link https://mk0999.github.io/Portfolio/
